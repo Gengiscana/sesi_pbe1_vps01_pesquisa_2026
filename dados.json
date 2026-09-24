@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "sistema":"Professor Virtual",
+        "tipo":"escola",
+        "finalidade":"Tirar dúvidas escolares",
+        "tecnologia":"IA generativa",
+        "nivel_risco":"Médio",
+        "possui_revisao_humana":true
+    },
+    {
+        "id":2,
+        "sistema":"Consulta de preço",
+        "tipo":"empresa",
+        "finalidade":"Consultar preço de produtos",
+        "tecnologia":"IA analitica de banco de dados",
+        "nivel_risco":"Baixo",
+        "possui_revisao_humana":false
+    },
+    {
+        "id":3,
+        "sistema":"IA de programação",
+        "tipo":"pessoal",
+        "finalidade":"Auxiliar em programação",
+        "tecnologia":"IA analitica",
+        "nivel_risco":"Alto",
+        "possui_revisao_humana":false
+    },
+    {
+        "id":4,
+        "sistema":"teste1",
+        "tipo":"teste01",
+        "finalidade":"teste001",
+        "tecnologia":"teste0001",
+        "nivel_risco":"Médio",
+        "possui_revisao_humana":false
+    },
+    {
+        "id":5,
+        "sistema":"teste2",
+        "tipo":"teste02",
+        "finalidade":"teste002",
+        "tecnologia":"teste0002",
+        "nivel_risco":"teste00002",
+        "possui_revisao_humana":true
+    }
+]

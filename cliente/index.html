@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesquisa</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pesquisa de campo</h1>
+    </header>
+    <main>
+        <form action="http://localhost:3000/pesquisas" method="post">
+            <input type="text" name="sistema" placeholder="Sistema" required>
+            <input type="text" name="tipo" placeholder="Tipo" required>
+            <input type="text" name="finalidade" placeholder="Finalidade" required>
+            <input type="text" name="tecnologia" placeholder="Tecnologia" required>
+            <input type="text" name="nivel_risco" placeholder="Nível de risco" required>
+            <label>
+                <input type="checkbox" name="possui_revisao_humana"> Possui revisão humana
+            </label>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <h2>by Guilherme</h2>
+    </footer>
+</body>
+
+</html>
