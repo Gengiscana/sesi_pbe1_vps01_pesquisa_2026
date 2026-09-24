@@ -32,3 +32,8 @@ Abra o arquivo client/index.html com a extensão Live Server do VsCode
 ![Buscar pelo Tipo](prints/buscar_tipo.png)
 - Buscar Risco
 ![Buscar pelo Risco](prints/buscar_risco.png)
+## Cliente
+![Requisição](prints/index1.png)
+- Resposta:
+![Resposta](image.png)
+O ID ficou como 7, pois estou usando o mesmo servidor onde cadastrei um dos exemplos anteriores, então ele auto incrementou
