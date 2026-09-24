@@ -76,7 +76,7 @@ const buscarUso = (req, res) => {
             resposta.push(pesquisa)
         }
     })
-    pesquisas.forEach((pesquisa, indice) => {
+    pesquisas.forEach((pesquisa) => {
         if (pesquisa.tipo == tipo) {
             status = 1
             resposta.push(pesquisa)
